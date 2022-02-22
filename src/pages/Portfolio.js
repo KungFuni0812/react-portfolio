@@ -42,7 +42,7 @@ const projects = [
 
 const Portfolio = () => {
     return (
-        <main>
+        <main className="container-fluid">
         <div className="page-header">
             <h1 className="text-center">Portfolio</h1>
         </div>

@@ -4,8 +4,7 @@ const Footer = () => {
     return (
         <div>
             <footer className="container-fluid text-center">
-                    <span>Copyright ©</span>
-                    <span>Social Media Icons</span>
+                    <span className="bottom">Copyright ©</span>
             </footer>
         </div>
     );

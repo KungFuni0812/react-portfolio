@@ -2,7 +2,7 @@ import React from 'react';
 
 const Main = () => {
     return (
-        <main>
+        <main className="container-fluid">
             <div className="page-header">
                 <h1>About Me</h1>
             </div>
