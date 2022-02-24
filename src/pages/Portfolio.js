@@ -4,65 +4,68 @@ import Card from "../components/card";
 const projects = [
     {
     name: "Project 1",
-    pic: "../components/project1.jpg",
+    pic: "./images/project1.jpg",
     id: 1,
     },
 
     {
     name: "Project 2",
-    pic: '../components/project2.jpg',
+    pic: '/images/project2.jpg',
     id: 2,
     },
 
     {
     name: "Project 3",
-    pic: '../components/project2.jpg',
+    pic: '/images/project3.jpg',
     id: 3,
     },
 
     {
     name: "Project 4",
-    pic: '../components/project4.jpg',
+    pic: '/images/project4.jpg',
     id: 4,
     },
 
     {
     name: "Project 5",
-    pic: '../components/project4.jpg',
+    pic: '/images/project5.jpg',
     id: 5,
     },
 
     {
     name: "Project 6",
-    pic: '../components/project6.jpg',
-    id: 5,
+    pic: '/images/project6.jpg',
+    id: 6,
     },
 ];
 
 
 const Portfolio = () => {
     return (
-        <main className="container-fluid">
-        <div className="page-header">
-            <h1 className="text-center">Portfolio</h1>
-        </div>
-        <div>
-            <ul>
-                {
-                    projects.map( (obj) => {
-                        return (
-                            <div className="container">
-                                <li className="list-group-item text-center">
-                                <Card name = {obj.name} pic = {obj.pic}/>
-                                </li>
+
+        <main className="container-fluid mb-3 justify-content-center">
+                <div className="row no-gutters">
+                    <div className= "col-md-1"/>
+                    <div className="col-md-2">
+                            <h1>Portfolio</h1>
+                    </div>
+                    <div className="col-md-8 d-flex justify-content">
+                        <div className="row no-gutters">
+                            <div className="card-group">
+                                {
+                                    projects.map( (obj) => {
+                                        return (
+                                            <Card name={obj.name} pic={obj.pic}/>
+                                        )
+                                    } )
+                                }
                             </div>
-                        )
-                    } )
-                }
-            </ul>
-        </div>
-        
+                        </div>
+                    <div className= "col-md-1"/>
+                    </div>
+                </div>
         </main>
+        
     );
 }
 
