@@ -6,15 +6,13 @@ const Main = () => {
             <div className="container-fluid mb-3 justify-content-center">
                 <div className="row no-gutters">
                     <div className= "col-md-1"/>
-                    <div className="col-md-2">
-                            <h1>About Me</h1>
-                    </div>
-                    <div className="col-md-8">
+                    <div className="col-md-9">
                         <div className="card-body">
-                            <p className="card-text">I am a selftaught developer that started the journey half year ago. I have been a payroll processor for more than 10 years,
-                            but there was always something missing from my job. I started exploring the different paths and discover programing.</p>
+                            <p className="card-text">I am a self taught developer that started the journey half year ago. During this journey, I have created full applications from scratch. My current 
+                            skillsets are Javascript, Nodejs, Sql, Squlized, React and Mongodb.</p>
                         </div>
                     </div>
+                    <div className= "col-md-1"/>
                 </div>
             </div>
         </main>

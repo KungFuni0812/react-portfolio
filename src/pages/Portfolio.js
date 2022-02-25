@@ -46,11 +46,8 @@ const Portfolio = () => {
         <main className="container-fluid mb-3 justify-content-center">
                 <div className="row no-gutters">
                     <div className= "col-md-1"/>
-                    <div className="col-md-2">
-                            <h1>Portfolio</h1>
-                    </div>
-                    <div className="col-md-8 d-flex justify-content">
-                        <div className="row no-gutters">
+                    <div className="col-md-9">
+                        <div className="row no-gutters flex-row">
                             <div className="card-group">
                                 {
                                     projects.map( (obj) => {
