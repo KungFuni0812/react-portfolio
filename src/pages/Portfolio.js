@@ -5,36 +5,48 @@ const projects = [
     {
     name: "Project 1",
     pic: "./images/project1.jpg",
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla pulvinar enim, ac volutpat nisl eleifend interdum. Ut vel pulvinar elit, id varius ex. Mauris eget hendrerit metus. Vestibulum viverra neque id ornare sagittis. Phasellus ac vehicula nibh. Morbi tincidunt nisi non lacus posuere, sed fringilla risus sagittis. In vel pretium arcu, at tristique sem. ",
+    tech: "Sql, NodeJs and Javascript",
     id: 1,
     },
 
     {
     name: "Project 2",
     pic: '/images/project2.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla pulvinar enim, ac volutpat nisl eleifend interdum. Ut vel pulvinar elit, id varius ex. Mauris eget hendrerit metus. Vestibulum viverra neque id ornare sagittis. Phasellus ac vehicula nibh. Morbi tincidunt nisi non lacus posuere, sed fringilla risus sagittis. In vel pretium arcu, at tristique sem. ",
+    tech: "Sql, NodeJs and Javascript",
     id: 2,
     },
 
     {
     name: "Project 3",
     pic: '/images/project3.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla pulvinar enim, ac volutpat nisl eleifend interdum. Ut vel pulvinar elit, id varius ex. Mauris eget hendrerit metus. Vestibulum viverra neque id ornare sagittis. Phasellus ac vehicula nibh. Morbi tincidunt nisi non lacus posuere, sed fringilla risus sagittis. In vel pretium arcu, at tristique sem. ",
+    tech: "Sql, NodeJs and Javascript",
     id: 3,
     },
 
     {
     name: "Project 4",
     pic: '/images/project4.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla pulvinar enim, ac volutpat nisl eleifend interdum. Ut vel pulvinar elit, id varius ex. Mauris eget hendrerit metus. Vestibulum viverra neque id ornare sagittis. Phasellus ac vehicula nibh. Morbi tincidunt nisi non lacus posuere, sed fringilla risus sagittis. In vel pretium arcu, at tristique sem. ",
+    tech: "Sql, NodeJs and Javascript",
     id: 4,
     },
 
     {
     name: "Project 5",
     pic: '/images/project5.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla pulvinar enim, ac volutpat nisl eleifend interdum. Ut vel pulvinar elit, id varius ex. Mauris eget hendrerit metus. Vestibulum viverra neque id ornare sagittis. Phasellus ac vehicula nibh. Morbi tincidunt nisi non lacus posuere, sed fringilla risus sagittis. In vel pretium arcu, at tristique sem. ",
+    tech: "Sql, NodeJs and Javascript",
     id: 5,
     },
 
     {
     name: "Project 6",
     pic: '/images/project6.jpg',
+    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam fringilla pulvinar enim, ac volutpat nisl eleifend interdum. Ut vel pulvinar elit, id varius ex. Mauris eget hendrerit metus. Vestibulum viverra neque id ornare sagittis. Phasellus ac vehicula nibh. Morbi tincidunt nisi non lacus posuere, sed fringilla risus sagittis. In vel pretium arcu, at tristique sem. ",
+    tech: "Sql, NodeJs and Javascript",
     id: 6,
     },
 ];
@@ -47,12 +59,14 @@ const Portfolio = () => {
                 <div className="row no-gutters">
                     <div className= "col-md-1"/>
                     <div className="col-md-9">
-                        <div className="row no-gutters flex-row">
-                            <div className="card-group">
+                        <div className="row no-gutters flex-wrap">
+                            <div className="list-group">
                                 {
                                     projects.map( (obj) => {
                                         return (
-                                            <Card name={obj.name} pic={obj.pic}/>
+                                            <li>
+                                            <Card name={obj.name} pic={obj.pic} description={obj.description} tech={obj.tech}/>
+                                            </li>
                                         )
                                     } )
                                 }
