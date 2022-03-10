@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Nav = () => {
     return (
-        <div className="container-fluid mb-3 justify-content-center">
+        <div className="container-fluid mb-3 justify-content-center sticky-top">
             <div className="row no-gutters">
                 <div className= "col-md-1"/>
                 <div className= "col-md-10">

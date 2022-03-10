@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from './button';
 
 const Card = (props) => {
 
@@ -13,7 +14,14 @@ const Card = (props) => {
                     <div className="card-body">
                         <h5 className="card-title">{props.name}</h5>  
                         <p className="card-text">{props.description}</p>
-                        <strong className="card-text">Technologies: {props.tech}</strong>
+                        <h5>Technologies:</h5>
+                        <div className="row flex flex-row">
+                        {
+                            props.tech.map( (obj) => {
+                                return <Button name={obj.name} url={obj.url}/>
+                            } )
+                        }
+                        </div>
                     </div>
                 </div>
                 <div className="col-md-3">
