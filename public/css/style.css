@@ -2,3 +2,26 @@
 .list-group {
     list-style-type: none;
 }
+
+.portfolio-main{
+    width: 100%; 
+    height: fit-content;
+}
+
+.card-pic{
+    object-fit: contain;
+}
+
+
+//*@media screen and (max-width:968px) {
+
+}
+
+@media screen and (max-width:768x) {
+    
+}
+
+
+@media screen and (max-width:640x) {
+    
+}*//

@@ -137,11 +137,11 @@ const projects = [
 const Portfolio = () => {
     return (
 
-        <main className="container-fluid mb-3 justify-content-center">
-                <div className="row no-gutters">
+        <main className="container-fluid mb-3 justify-content-center portfolio-main">
+                <div className="row">
                     <div className= "col-md-1"/>
                     <div className="col-md-9">
-                        <div className="row no-gutters flex-wrap">
+                        <div className="row flex-wrap">
                             <div className="list-group">
                                 {
                                     projects.map( (obj) => {
@@ -154,9 +154,9 @@ const Portfolio = () => {
                                 }
                             </div>
                         </div>
-                    <div className= "col-md-1"/>
                     </div>
-                </div>
+                    <div className= "col-md-1"/>
+                </div>                
         </main>
         
     );

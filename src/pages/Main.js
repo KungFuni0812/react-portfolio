@@ -9,7 +9,7 @@ const Main = () => {
                     <div className="col-md-9">
                         <div className="card-body">
                             <p className="card-text">I am a self taught developer that started the journey half year ago. During this journey, I have created full applications from scratch. My current 
-                            skillsets are Javascript, Nodejs, Sql, Squlized, React and Mongodb.</p>
+                            skillsets are Javascript, Nodejs, Sql, Sequlized, React and Mongodb.</p>
                         </div>
                     </div>
                     <div className= "col-md-1"/>

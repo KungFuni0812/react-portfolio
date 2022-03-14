@@ -8,7 +8,7 @@ const Header = () => {
         <div className="row no-gutters">
             <div className= "col-md-1"/>
             <div className="col-md-1">
-                <img src={logo} className = "rounded-circle justify-content-center" alt="Logo Max-width 20%" />
+                <img src={logo} className = "rounded-circle justify-content-center img-fluid" alt="Logo Max-width 20%" />
             </div>
             <div className="col-md-8">
                 <div className="card-body">
