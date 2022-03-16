@@ -12,16 +12,32 @@
     object-fit: contain;
 }
 
+.footer{
+    position:fixed;
+    bottom:0;
+    left:0;
+}
 
-//*@media screen and (max-width:968px) {
+.header, 
+.tech-button{
+    background-color: darkred;
+}
+
+
+
+/*@media screen and (max-width:968px) {
 
 }
 
 @media screen and (max-width:768x) {
     
-}
+}*/
 
 
-@media screen and (max-width:640x) {
+@media only screen and (max-width: 600px) {
+
+    .profile-pic {
+        display: none;
+        }
     
-}*//
+}

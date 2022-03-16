@@ -9,7 +9,7 @@ const Nav = () => {
                     <nav id="navbar-example2" className="navbar navbar-light bg-white">
                         <ul className="nav nav-tabs flex-fill" id="myTab" role="tablist">
                             <li className="nav-item" role="presentation">
-                                <NavLink to="/" className="nav-link text-dark nav-link" id="about-tab" data-toggle="tab" href="#" role="tab" aria-controls="about">About Me</NavLink>
+                                <NavLink to="/" className="nav-link text-dark " id="about-tab" data-toggle="tab" href="#" role="tab" aria-controls="about">About Me</NavLink>
                             </li>
                             <li className="nav-item" role="presentation">
                                 <NavLink to="/Portfolio" className="nav-link text-dark" id="portfolio-tab" data-toggle="tab" href="#portfolio" role="tab" aria-controls="portfolio">Portfolio</NavLink>

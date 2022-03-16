@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <div>
-            <footer className="container-fluid text-center">
+            <footer className="footer container-fluid text-center bg-dark text-light">
                     <span className="stick-bottom">Copyright ©</span>
             </footer>
         </div>
