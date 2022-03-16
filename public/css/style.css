@@ -33,6 +33,18 @@
     
 }*/
 
+@media only screen and (max-width: 968px) {
+
+    .profile-pic {
+        display: none;
+        }
+
+    .header-body {
+        float: center;
+    }
+    
+}
+
 
 @media only screen and (max-width: 600px) {
 
